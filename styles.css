@@ -7,7 +7,7 @@ html{
     border: 0;
     margin: 0;
     padding: 0;
-    background-color: rgb(6, 43, 35);
+    background-color: rgb(2, 31, 24);
   }
   .pageContentWrapper{
     margin-bottom:100px;/* Height of footer*/
@@ -33,14 +33,6 @@ html{
     font-size: 92;
     color:white;
 }
-.navbar{
-    position: sticky;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height:65px;
-    background: rgb(102, 131, 21);
-}
   .footer{
       position: absolute;
       bottom: 0;
@@ -60,3 +52,107 @@ html{
   p{
     color:white;
   }
+
+  /* Navbar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(19, 19, 19);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 32px 22px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(0, 0, 0);
+}
+
+.active {
+    background-color: rgb(48, 119, 51);
+}
+
+/* Flexboxes */
+
+.flex-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: flex-start;
+}
+    
+ .flex-items-default {
+    width: 300px;
+    height: 250px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 0;
+}
+    
+ .flex-item-1 {
+    width: 300px;
+    height: 250px;
+}
+  
+ .flex-item-2 {
+    width: 300px;
+    height: 250px;
+}
+  
+ .flex-item-3 {
+    width: 300px;
+    height: 250px;
+}
+
+
+
+
+/* Column container */
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+    flex: 30%;
+    padding: 20px;
+}
+
+/* Main column */
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .row, .navbar {   
+        flex-direction: column;
+    }
+}
