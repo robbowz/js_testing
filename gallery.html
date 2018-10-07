@@ -16,8 +16,112 @@
         onclick="previous()">
 <img src="img/next.png" alt="Next" width="120" height="48"
         onclick="next()">
-</div>>
+</div>
 
+<hr>
+<script>
+    var myvariable;
+    var words = "this is";
+    var morewords = " a sentence";
+    var sentence = words + morewords;
+    document.write(sentence) // adds variable strings together
+</script>
+
+<br>
+<hr>
+<script>
+    var num1 = 5;
+    var num2 = 3;
+    var total = num1 + num2;
+    document.write(total); // adds variables, can use other forms as well (- / *)
+</script>
+
+<br>
+<hr>
+<br>
+<script>
+    var alpha = "ABDCEFG";
+    var length = alpha.length;
+    document.write(length); // shows the length of ALPHA (how many letters)
+</script>
+
+<br>
+<hr>
+<br>
+<script>
+    var alpha = "ABDCEFG";
+    var result = alpha.substring(3, 5);
+    document.write(result); // shows specific marked information (C & E)
+</script>
+
+<br>
+<hr>
+<br>
+<script>
+    var a = new Array(7); // Array holds 7 items
+    a[0] = "cat";
+    a[1] = "dog";
+    a[2] = 95;
+    a[6] = true;
+
+    document.write(a[0]) // by addind the a[number] it writes the outcome
+</script>
+
+<br>
+<hr>
+<br>
+<script> // adding the info directly in the Array field
+    var a = new Array("cat", "dog", 53, true); // Array holds 7 items (can use [] instead of () as well)
+    document.write(a[2]) // by addind the a[number] it writes the outcome
+</script>
+
+<br>
+<hr>
+<br>
+<script> // using functions, naming and writing outcome
+    function sayHello() {
+        document.write("hello");
+    }
+</script>
+
+<br>
+<hr>
+<br>
+<script> // Using multiple outcomes on function
+    function sayHello(who) {
+        document.write("Hello, " + who);
+    }
+</script>
+<script> // Addind the variables for sayHello, also adding a new line ("<br>")
+    sayHello("Bob");
+    document.write("<br>");
+    sayHello("Mary");
+</script>
+
+<br>
+<hr>
+<br>
+<script> // Using equals and alerts
+    var a = 6;
+    if (a > 10) { // (< = less than, > = more than, == equal to,  != not equal to)
+                  // (<= less than or equal to,  >= more than or equal to)
+        alert(a);
+    } else {
+        alert("The condition was false") // Gives warning if the condition is not equal / met
+    }
+</script>
+
+<br>
+<hr>
+<br>
+<script> // Using iterations
+for (i=0;i<5;i++) { // i is less than 5, and i increments
+    document.write("This is iteration " + i + "<br>");
+} 
+
+//continues writing the "i" value until condition is met
+
+</script>
 
 </body>
 </html>
