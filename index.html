@@ -1,10 +1,53 @@
 <!doctype html>
-<html lang="en">
+<html>
+<body>
+    <style>
+        html{
+    position:relative; 
+    min-height: 100%;
+  }
+  /*Normalize html and body elements,this style is just good to have*/
+  html,body{
+    margin:0;
+    padding:0;
+  }
+  .pageContentWrapper{
+    margin-bottom:100px;/* Height of footer*/
+  } 
+  .footer{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height:100px;
+      background:#ccc;
+  }
+  </style>
+
+    <div class="pageContentWrapper">
     <head>
         <meta charset="utf-8">
-        <title>Test</title>
+        <center>
+        <title><font size="+5">Test Page by Robbowz</title></font>
+    </center>
     </head>
-<body>
     <h1>Test</h1>
+<center>
+    <a href="gallery.html"><font size="+5">Gallery</a></font>
+    &nbsp;
+    &nbsp;
+    <a href="snake.html"><font size="+5">Snake</a></font>
+</center>
+</div>
+
+<body>
+<div class="footer">
+<center><font size="2">
+        <p>Posted by: Robbowz</p>
+        <p>Contact information: <a href="mailto:someone@example.com">
+        someone@example.com</a>.</p>
+        <p>Copyright: Robbowz (c) 2018</p>
+</center></font>
+</div>
 </body>
 </html>
