@@ -1,0 +1,60 @@
+html{
+    position: relative; 
+    min-height: 100%;
+  }
+  /*Normalize html and body elements,this style is just good to have*/
+  html,body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(6, 43, 35);
+  }
+  .pageContentWrapper{
+    margin-bottom:100px;/* Height of footer*/
+    margin-top:100px;/* Height of header*/
+  } 
+  .header{
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:260px;
+    background: rgb(97, 150, 0);
+}
+.headertext{
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:100px;
+    background: rgb(97, 150, 0);
+    font-size: 92;
+    color:white;
+}
+.navbar{
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:65px;
+    background: rgb(184, 224, 72);
+}
+  .footer{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height:100px;
+      background:rgb(2, 8, 4);
+  }
+  h1{
+    font-size: 22;
+    display: block;
+    color:white;
+  }
+  h2{
+    color:white;
+  }
+  p{
+    color:white;
+  }
