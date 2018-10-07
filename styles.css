@@ -13,21 +13,23 @@ html{
     margin-bottom:100px;/* Height of footer*/
     margin-top:100px;/* Height of header*/
   } 
-  .header{
-    position: sticky;
+.header{
+    position: top;
     bottom: 0;
     left: 0;
     right: 0;
-    height:260px;
-    background: rgb(97, 150, 0);
+    height:220;
+    background: rgb(66, 102, 0);
+    font-size: 225;
+    color:white;
 }
-.headertext{
-    position: sticky;
+.header2{
+    position: top;
     bottom: 0;
     left: 0;
     right: 0;
-    height:100px;
-    background: rgb(97, 150, 0);
+    height:120px;
+    background: rgb(66, 102, 0);
     font-size: 92;
     color:white;
 }
@@ -37,7 +39,7 @@ html{
     left: 0;
     right: 0;
     height:65px;
-    background: rgb(184, 224, 72);
+    background: rgb(102, 131, 21);
 }
   .footer{
       position: absolute;
