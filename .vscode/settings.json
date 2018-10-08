@@ -1,0 +1,16 @@
+{
+    "workbench.colorTheme": "Syntax Theme"
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#000000"
+        "activityBar.foreground": "#ffffff"
+        "sideBarSectionHeader.background": "#1f1f1f"
+        "statusBar.background": "#000000"
+        "titleBar.activeBackground": "#000000"
+        "sideBar.background": "#111111"
+        "tab.activeBackground": "#242424"
+        "tab.inactiveBackground": "#000000"
+
+{
+    "workbench.colorTheme": "Syntax Theme",
+    "material-icon-theme.folders.color": "#6688cc"
+}
